@@ -31,6 +31,10 @@ namespace Winsoft.WorkSystem.Controllers
             }
             var user=UserCommom.getUserInfo(_cache, token, _context);
 
+
+
+
+
             return Ok();
         }
     }
