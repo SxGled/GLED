@@ -10,6 +10,16 @@ namespace Winsoft.WorkSystem.Models.Admin
     /// </summary>
     public class AdminInfoModel
     {
+        /// <summary>
+        ///  UserName  用户名
+        ///  RealName  显示名
+        ///  AdminScopeIdentifier  权限id
+        ///  OneLevelScopeName  一级权限名
+        ///  TwoLevelScopeName  二级权限名
+        ///  OneLevelScopeId  一级权限id
+        ///  TwoLevelScopeId  二级权限id
+        /// </summary>
+        public int Id { set; get; }
         public string UserName { set; get; }
         public string RealName { set; get; }
         public int AdminScopeIdentifier { set; get; }

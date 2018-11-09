@@ -21,6 +21,11 @@ namespace Winsoft.WorkSystem.Controllers
         }
 
         #region 登录验证
+        /// <summary>
+        /// 登录验证
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
         [HttpPost("checkLogOn")]
         public async Task<IActionResult> AutoCheckLogin([FromHeader] string token)
         {

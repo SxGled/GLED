@@ -87,7 +87,8 @@ namespace Winsoft.WorkSystem.Common.UserCommom
 
             AdminInfoModel user = new AdminInfoModel
             {
-                RealName=admin.RealName,
+                Id = admin.Id,
+                RealName =admin.RealName,
                 UserName=admin.UserName,
                 AdminScopeIdentifier =admin.AdminScopeIdentifier,
                 OneLevelScopeName =adminscope.OneLevelScopeName,

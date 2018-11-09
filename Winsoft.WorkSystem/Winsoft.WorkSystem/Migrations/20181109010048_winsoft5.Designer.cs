@@ -11,9 +11,10 @@ using Winsoft.WorkSystem.Context;
 namespace Winsoft.WorkSystem.Migrations
 {
     [DbContext(typeof(basisContext))]
-    partial class basisContextModelSnapshot : ModelSnapshot
+    [Migration("20181109010048_winsoft5")]
+    partial class winsoft5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
